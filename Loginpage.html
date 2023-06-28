@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in to the site</title>
+    <link rel="stylesheet icon" href="cretile2.png">
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color:whitesmoke;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .form-box{
+            width: 90%;
+            max-width: 550px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 500px;
+            width: 800px;
+            transform: translate(-50%,-50%);
+            background-color: white;
+            padding: 50px,60px,70px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 5px rgb(206, 203, 203);
+
+        }
+        img{
+            height: 100px;
+            width: 450px;
+            margin-top: 20px;
+        }
+        .input field{
+            background-color: antiquewhite;
+            margin: 10px 0;
+            border-radius: 30px;
+
+        }
+        input{
+            width: 450px;
+            height: 40px;
+            justify-content: space-between;
+            background: transparent;
+            outline: 0;
+            border-radius: 10px;
+            border-color: rgb(241, 238, 238);
+            border-width: 2px;
+            text-align: left;
+            font-size: large;
+            margin-top: 20px;
+
+        }
+        button{
+            margin-top: 20px;
+            height: 55px;
+            width: 90px;
+            color: white;
+            background-color: rgb(43, 130, 244);
+            border-radius: 10px;
+            float: left;
+            margin-left: 45px;
+            border-color:rgb(43, 130, 244) ;
+        }
+        a{
+            margin-top: 100px;
+            float: left;
+            color: rgb(43, 130, 244);
+            margin-right: 145px;
+            justify-content: left;
+            align-items: flex-start;
+            text-decoration: none;
+        }
+        h2{
+            margin: 150px;
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+
+        }
+        p{
+            margin-top: 10px;
+            float: left;
+            margin-left: 40px;
+            font-weight: bolder;
+            font: size 10px;
+            font-size: larger;
+        }
+        .g{
+            margin-top: 5px;
+           margin-right: 100px;
+            margin-right: 40pxs;
+            background-color: gray;
+            color: white;
+            border-color: gray;
+            border-radius: 6px;
+           text-align: left;
+        }
+    </style>
+</head>
+<body>
+       <div class="container">
+        <div class="form-box">
+        <img src="https://edu.cretile.com/courses/pluginfile.php/1/core_admin/logo/0x150/1596995075/Cretile%20Logo_transperent.png" alt="">
+  <form>
+    <div class="input">
+        <div class="input feild">
+            <input type="text" placeholder="Username">
+            
+        </div>
+        <div class="input feild">
+        <input type="text" placeholder="Password"></div>
+    </div>
+    <button>Login</button>
+    <a href="">Lost Password?</a>
+   <p>Some courses may access as a guest</p>
+    <button class="g">Log in as a guest</button>
+    <button class="g">Cookies notice</button>
+
+
+  </form>
+    </div>
+    </div>
+</body>
+</html>
